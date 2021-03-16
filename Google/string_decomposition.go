@@ -1,10 +1,10 @@
+// Link: https://techdevguide.withgoogle.com/resources/former-interview-question-compression-and-decompression/#!
+
 package Google
 
 import (
 "strings"
 )
-
-// Link: https://techdevguide.withgoogle.com/resources/former-interview-question-compression-and-decompression/#!
 
 func isDigit(r uint8) bool {
 	return '0' <= r && r <= '9'
